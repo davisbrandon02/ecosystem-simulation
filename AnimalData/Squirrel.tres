@@ -1,0 +1,20 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://3t2u5hwa6q7d"]
+
+[ext_resource type="Script" path="res://AnimalData.gd" id="1_ihqlg"]
+
+[resource]
+script = ExtResource("1_ihqlg")
+name = "Squirrel"
+base_hp_max = 1.0
+base_hp_min = 2.0
+max_ap_per_turn = 1.0
+min_ap_per_turn = 1.0
+move_cost = 1.0
+attack_cost = 1.0
+attack = 1.0
+attack_range = 1.0
+max_sight = 7
+min_sight = 4
+max_initiative = 6
+min_initiative = 3
+vegetarian = true

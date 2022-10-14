@@ -1,0 +1,20 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://chhrvjmmdiqu2"]
+
+[ext_resource type="Script" path="res://AnimalData.gd" id="1_lc7ol"]
+
+[resource]
+script = ExtResource("1_lc7ol")
+name = "Fox"
+base_hp_max = 7.0
+base_hp_min = 5.0
+max_ap_per_turn = 1.0
+min_ap_per_turn = 1.0
+move_cost = 1.0
+attack_cost = 2.0
+attack = 2.0
+attack_range = 1.0
+max_sight = -1
+min_sight = -1
+max_initiative = 4
+min_initiative = 3
+vegetarian = false
