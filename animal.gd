@@ -19,6 +19,11 @@ var ap: float
 var ap_per_turn: float
 var attack: float
 var initiative: int
+var sight: float
+
+var hunger: float = 0
+var max_hunger: float = 10
+var hunger_gain: float = 1.0
 
 var is_player: bool = false
 
@@ -48,7 +53,6 @@ func _input(event):
 func move(_pos: Vector2):
 	if ap > data.move_cost:
 		pos = _pos
-		print('%s moved to %s' % [data.name, _pos])
 
 # AI -----
 var target_pos = null

@@ -41,22 +41,18 @@ func _on_pause_pressed():
 	timer.stop()
 
 func _on_speed_1_pressed():
-	timer.stop()
 	timer.wait_time = speed[0]
 	timer.start()
 
 func _on_speed_2_pressed():
-	timer.stop()
 	timer.wait_time = speed[1]
 	timer.start()
 
 func _on_speed_3_pressed():
-	timer.stop()
 	timer.wait_time = speed[2]
 	timer.start()
 
 func _on_speed_4_pressed():
-	timer.stop()
 	timer.wait_time = speed[3]
 	timer.start()
 

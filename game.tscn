@@ -8,7 +8,7 @@
 [node name="Game" type="Node2D"]
 position = Vector2(-368, -240)
 script = ExtResource("1_dd6yk")
-animal_count = 50
+animal_count = 10
 
 [node name="Camera2d" type="Camera2D" parent="."]
 position = Vector2(960, 536)
@@ -17,6 +17,8 @@ script = ExtResource("1_e5ygq")
 
 [node name="Grid" type="Node2D" parent="."]
 script = ExtResource("2_bqpvm")
+grid_size_x = 100
+grid_size_y = 100
 
 [node name="TurnQueue" type="Node" parent="."]
 script = ExtResource("4_rqwvr")
@@ -53,7 +55,6 @@ grow_horizontal = 2
 grow_vertical = 0
 
 [node name="Pause" type="Button" parent="GUI/SpeedButtons"]
-layout_mode = 2
 offset_right = 86.0
 offset_bottom = 80.0
 grow_horizontal = 2
@@ -63,7 +64,6 @@ text = "l l
 1"
 
 [node name="Speed1" type="Button" parent="GUI/SpeedButtons"]
-layout_mode = 2
 offset_left = 90.0
 offset_right = 176.0
 offset_bottom = 80.0
@@ -74,7 +74,6 @@ text = ">
 2"
 
 [node name="Speed2" type="Button" parent="GUI/SpeedButtons"]
-layout_mode = 2
 offset_left = 180.0
 offset_right = 266.0
 offset_bottom = 80.0
@@ -85,7 +84,6 @@ text = ">>
 3"
 
 [node name="Speed3" type="Button" parent="GUI/SpeedButtons"]
-layout_mode = 2
 offset_left = 270.0
 offset_right = 356.0
 offset_bottom = 80.0
@@ -96,7 +94,6 @@ text = ">>>
 4"
 
 [node name="Speed4" type="Button" parent="GUI/SpeedButtons"]
-layout_mode = 2
 offset_left = 360.0
 offset_right = 447.0
 offset_bottom = 80.0
